@@ -10,6 +10,7 @@ module Spotify
       #
       # @param album [String] Album ID.
       # @return [Sawyer::Resource] Hash representing catalog information for the album.
+      # @see https://developer.spotify.com/web-api/get-album/
       # @example
       #   Spotify.client.album("0sNOF9WDwhWunNAHPD3Baj")
       # @example
@@ -22,6 +23,7 @@ module Spotify
       #
       # @param albums [Array] Album IDs.
       # @return [Sawyer::Resource] Hash representing an array of albums.
+      # @see https://developer.spotify.com/web-api/get-several-albums/
       # @example
       #   Spotify.client.albums(["0sNOF9WDwhWunNAHPD3Baj"])
       # @example
@@ -34,6 +36,11 @@ module Spotify
       # 
       # @param album [String] Album ID.
       # @return [Sawyer::Resource] Hash representing an array of an album's tracks.
+      # @see https://developer.spotify.com/web-api/get-albums-tracks/
+      # @example
+      #   Spotify.client.album_tracks("0sNOF9WDwhWunNAHPD3Baj")
+      # @example
+      #   Spotify.album_tracks("0sNOF9WDwhWunNAHPD3Baj")
       def album_tracks(album, options = {})
         get "albums/#{album}/tracks", options
       end

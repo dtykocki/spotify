@@ -5,6 +5,10 @@ require 'base64'
 require "spotify/client/albums"
 
 module Spotify
+
+  # Client for the Spotify API
+  #
+  # @see https://developer.spotify.com/
   class Client
     include Spotify::Client::Albums
 
@@ -26,10 +30,20 @@ module Spotify
       "https://api.spotify.com/v1/"
     end
 
+    # Makes an HTTP GET request.
+    #
+    # @param url [String] The path, relative to {#endpoint_url}.
+    # @param options [Hash] Query and header parameters for the request.
+    # @return [Sawyer::Resource]
     def get(url, options = {})
       request :get, url, options
     end
 
+    # Makes an HTTP POST request.
+    #
+    # @param url [String] The path, relative to {#endpoint_url}.
+    # @param options [Hash] Body and header information for the request.
+    # @return [Sawyer::Resource]
     def post(url, options = {})
       request :post, url, options
     end
