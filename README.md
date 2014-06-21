@@ -1,5 +1,7 @@
 # Spotify
 
+[![Gem Version](https://travis-ci.org/dtykocki/spotify.svg?branch=master)](https://travis-ci.org/dtykocki/spotify.svg?branch=master)
+
 TODO: Write a gem description
 
 ## Installation
