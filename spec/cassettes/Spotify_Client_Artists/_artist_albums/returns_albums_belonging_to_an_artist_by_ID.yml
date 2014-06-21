@@ -1,0 +1,521 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.spotify.com/v1/artists/0oSGxfWSnnOXhD2fKuz2Gy/albums
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 21 Jun 2014 20:17:17 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=600
+      Vary:
+      - Accept-Encoding
+      Cache-Control:
+      - public, max-age=7200
+      Access-Control-Allow-Headers:
+      - Accept, Authorization, Origin, Content-Type
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Max-Age:
+      - '604800'
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS, PUT, DELETE
+      Access-Control-Allow-Credentials:
+      - 'true'
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "href" : "https://api.spotify.com/v1/artists/0oSGxfWSnnOXhD2fKuz2Gy/albums?offset=0&limit=20&album_type=single,album,compilation,appears_on",
+          "items" : [ {
+            "album_type" : "album",
+            "external_urls" : {
+              "spotify" : "https://open.spotify.com/album/2agWNCZl5Ts9W05mij8EPh"
+            },
+            "href" : "https://api.spotify.com/v1/albums/2agWNCZl5Ts9W05mij8EPh",
+            "id" : "2agWNCZl5Ts9W05mij8EPh",
+            "images" : [ {
+              "height" : 640,
+              "url" : "https://i.scdn.co/image/9289b38f1f745694bc6991fa45b7b80b5eb8627a",
+              "width" : 640
+            }, {
+              "height" : 300,
+              "url" : "https://i.scdn.co/image/898e09cad6262e451f9ad13cbad554ce614e31e9",
+              "width" : 300
+            }, {
+              "height" : 64,
+              "url" : "https://i.scdn.co/image/63aee5ac820dcf58f6b65e8ea4fbe8eb79c406e3",
+              "width" : 64
+            } ],
+            "name" : "The Next Day Extra",
+            "type" : "album",
+            "uri" : "spotify:album:2agWNCZl5Ts9W05mij8EPh"
+          }, {
+            "album_type" : "album",
+            "external_urls" : {
+              "spotify" : "https://open.spotify.com/album/1XExd3X5gOIyaD0wGabBlh"
+            },
+            "href" : "https://api.spotify.com/v1/albums/1XExd3X5gOIyaD0wGabBlh",
+            "id" : "1XExd3X5gOIyaD0wGabBlh",
+            "images" : [ {
+              "height" : 640,
+              "url" : "https://i.scdn.co/image/7954a5911169d55c5cf8c0289a6a0c6d40002559",
+              "width" : 640
+            }, {
+              "height" : 300,
+              "url" : "https://i.scdn.co/image/e1ef0c38092dd9fe76b791e9521d1e873d4475ad",
+              "width" : 300
+            }, {
+              "height" : 64,
+              "url" : "https://i.scdn.co/image/d4ec06b95bbb53e51a5a47cec51a873acc80a006",
+              "width" : 64
+            } ],
+            "name" : "The Next Day Extra EP",
+            "type" : "album",
+            "uri" : "spotify:album:1XExd3X5gOIyaD0wGabBlh"
+          }, {
+            "album_type" : "album",
+            "external_urls" : {
+              "spotify" : "https://open.spotify.com/album/16F7X7WOFZhMwQNsMil7lq"
+            },
+            "href" : "https://api.spotify.com/v1/albums/16F7X7WOFZhMwQNsMil7lq",
+            "id" : "16F7X7WOFZhMwQNsMil7lq",
+            "images" : [ {
+              "height" : 577,
+              "url" : "https://i.scdn.co/image/867d7e661bcf4e28b94285d770f3ed6c82302219",
+              "width" : 640
+            }, {
+              "height" : 270,
+              "url" : "https://i.scdn.co/image/e2b4c22daf299d3fc8bfdab9274427933fbead20",
+              "width" : 300
+            }, {
+              "height" : 58,
+              "url" : "https://i.scdn.co/image/c3a8a5ea1f642b3e1fc5867018bfb5fbabd2817f",
+              "width" : 64
+            } ],
+            "name" : "The Next Day",
+            "type" : "album",
+            "uri" : "spotify:album:16F7X7WOFZhMwQNsMil7lq"
+          }, {
+            "album_type" : "album",
+            "external_urls" : {
+              "spotify" : "https://open.spotify.com/album/38zYQjUvLCnJvnx1lN9rN8"
+            },
+            "href" : "https://api.spotify.com/v1/albums/38zYQjUvLCnJvnx1lN9rN8",
+            "id" : "38zYQjUvLCnJvnx1lN9rN8",
+            "images" : [ {
+              "height" : 576,
+              "url" : "https://i.scdn.co/image/d5fc81b9eaf582af24728070d3c4e7b344670863",
+              "width" : 640
+            }, {
+              "height" : 270,
+              "url" : "https://i.scdn.co/image/76aec7cc1bc6ecaaad46bbf3df8eeeb32b312197",
+              "width" : 300
+            }, {
+              "height" : 58,
+              "url" : "https://i.scdn.co/image/c8b4dcd1b8496b603c31fbd0fdb245ee6a9cf026",
+              "width" : 64
+            } ],
+            "name" : "The Next Day",
+            "type" : "album",
+            "uri" : "spotify:album:38zYQjUvLCnJvnx1lN9rN8"
+          }, {
+            "album_type" : "album",
+            "external_urls" : {
+              "spotify" : "https://open.spotify.com/album/0izhrQQ2IKmo3k02mN91zA"
+            },
+            "href" : "https://api.spotify.com/v1/albums/0izhrQQ2IKmo3k02mN91zA",
+            "id" : "0izhrQQ2IKmo3k02mN91zA",
+            "images" : [ {
+              "height" : 575,
+              "url" : "https://i.scdn.co/image/1ecf651f45233953a30d8bf276eb62d0968013a2",
+              "width" : 640
+            }, {
+              "height" : 270,
+              "url" : "https://i.scdn.co/image/ee4a0fa898f2b746628292b1faf246b33e523d58",
+              "width" : 300
+            }, {
+              "height" : 58,
+              "url" : "https://i.scdn.co/image/787e5bab5190d2266d6f959df83103807c6fd5c3",
+              "width" : 64
+            } ],
+            "name" : "A Reality Tour",
+            "type" : "album",
+            "uri" : "spotify:album:0izhrQQ2IKmo3k02mN91zA"
+          }, {
+            "album_type" : "album",
+            "external_urls" : {
+              "spotify" : "https://open.spotify.com/album/2itp35XphXKG3x7WF8pCiO"
+            },
+            "href" : "https://api.spotify.com/v1/albums/2itp35XphXKG3x7WF8pCiO",
+            "id" : "2itp35XphXKG3x7WF8pCiO",
+            "images" : [ {
+              "height" : 575,
+              "url" : "https://i.scdn.co/image/1ecf651f45233953a30d8bf276eb62d0968013a2",
+              "width" : 640
+            }, {
+              "height" : 270,
+              "url" : "https://i.scdn.co/image/7e2dabbb4aaa8e1ab90883574e7ec2626113c5ab",
+              "width" : 300
+            }, {
+              "height" : 58,
+              "url" : "https://i.scdn.co/image/787e5bab5190d2266d6f959df83103807c6fd5c3",
+              "width" : 64
+            } ],
+            "name" : "A Reality Tour",
+            "type" : "album",
+            "uri" : "spotify:album:2itp35XphXKG3x7WF8pCiO"
+          }, {
+            "album_type" : "album",
+            "external_urls" : {
+              "spotify" : "https://open.spotify.com/album/5PfAboDCGnNBqBKnMyOLB7"
+            },
+            "href" : "https://api.spotify.com/v1/albums/5PfAboDCGnNBqBKnMyOLB7",
+            "id" : "5PfAboDCGnNBqBKnMyOLB7",
+            "images" : [ {
+              "height" : 640,
+              "url" : "https://i.scdn.co/image/5378f3bd9b45008835823972494400c50cac5543",
+              "width" : 640
+            }, {
+              "height" : 300,
+              "url" : "https://i.scdn.co/image/4d4b67ab1448c80a0eb4dfe8387d0220a42852e3",
+              "width" : 300
+            }, {
+              "height" : 64,
+              "url" : "https://i.scdn.co/image/c30526e719222e9f3b7e1954ca4ff1c158c4e48d",
+              "width" : 64
+            } ],
+            "name" : "Space Oddity [Space Oddity 40th Anniversary Edition]",
+            "type" : "album",
+            "uri" : "spotify:album:5PfAboDCGnNBqBKnMyOLB7"
+          }, {
+            "album_type" : "album",
+            "external_urls" : {
+              "spotify" : "https://open.spotify.com/album/1pOR2tIMQZ30GNCVz4TkFp"
+            },
+            "href" : "https://api.spotify.com/v1/albums/1pOR2tIMQZ30GNCVz4TkFp",
+            "id" : "1pOR2tIMQZ30GNCVz4TkFp",
+            "images" : [ {
+              "height" : 640,
+              "url" : "https://i.scdn.co/image/df377e66b0bec7e737613a6b13877102c5d23d9e",
+              "width" : 640
+            }, {
+              "height" : 300,
+              "url" : "https://i.scdn.co/image/6879dcf4d19c826622214faaa090cedb9c8f9bdd",
+              "width" : 300
+            }, {
+              "height" : 64,
+              "url" : "https://i.scdn.co/image/08d11108e01e74dab530458925a9d61b509b2740",
+              "width" : 64
+            } ],
+            "name" : "VH1 Storytellers",
+            "type" : "album",
+            "uri" : "spotify:album:1pOR2tIMQZ30GNCVz4TkFp"
+          }, {
+            "album_type" : "album",
+            "external_urls" : {
+              "spotify" : "https://open.spotify.com/album/1Pdqi82cLFm4aJCcyMxek7"
+            },
+            "href" : "https://api.spotify.com/v1/albums/1Pdqi82cLFm4aJCcyMxek7",
+            "id" : "1Pdqi82cLFm4aJCcyMxek7",
+            "images" : [ {
+              "height" : 560,
+              "url" : "https://i.scdn.co/image/808374344d9df5c1aea87bb357b06a07995b2b62",
+              "width" : 640
+            }, {
+              "height" : 263,
+              "url" : "https://i.scdn.co/image/4f1ded1530fb270ed7350340500071f2102c8153",
+              "width" : 300
+            }, {
+              "height" : 56,
+              "url" : "https://i.scdn.co/image/940e4c41cab63cc81d77d581edf308870f2c6974",
+              "width" : 64
+            } ],
+            "name" : "Reality",
+            "type" : "album",
+            "uri" : "spotify:album:1Pdqi82cLFm4aJCcyMxek7"
+          }, {
+            "album_type" : "album",
+            "external_urls" : {
+              "spotify" : "https://open.spotify.com/album/2n1pSuUJqTJaFXcZ59CESr"
+            },
+            "href" : "https://api.spotify.com/v1/albums/2n1pSuUJqTJaFXcZ59CESr",
+            "id" : "2n1pSuUJqTJaFXcZ59CESr",
+            "images" : [ {
+              "height" : 560,
+              "url" : "https://i.scdn.co/image/e6f376175583f494fba846a90c1394580d23a28e",
+              "width" : 640
+            }, {
+              "height" : 263,
+              "url" : "https://i.scdn.co/image/7d2c136081e0e4df99d9fd8fb56cec3795884056",
+              "width" : 300
+            }, {
+              "height" : 56,
+              "url" : "https://i.scdn.co/image/18cc147a9f0447e2bf5a2afef24f6bfa2b185d4c",
+              "width" : 64
+            } ],
+            "name" : "Reality",
+            "type" : "album",
+            "uri" : "spotify:album:2n1pSuUJqTJaFXcZ59CESr"
+          }, {
+            "album_type" : "album",
+            "external_urls" : {
+              "spotify" : "https://open.spotify.com/album/6rRQYCBIXUQi941445Jn7N"
+            },
+            "href" : "https://api.spotify.com/v1/albums/6rRQYCBIXUQi941445Jn7N",
+            "id" : "6rRQYCBIXUQi941445Jn7N",
+            "images" : [ {
+              "height" : 640,
+              "url" : "https://i.scdn.co/image/f2e5dc075bd72b1d5e08e8ce23536a1dbf2edd60",
+              "width" : 640
+            }, {
+              "height" : 300,
+              "url" : "https://i.scdn.co/image/dd10006462453380d23a45473d464369cd18ac6f",
+              "width" : 300
+            }, {
+              "height" : 64,
+              "url" : "https://i.scdn.co/image/7e137883ddddb9f1297d9d9876f2de32c94581ba",
+              "width" : 64
+            } ],
+            "name" : "Reality",
+            "type" : "album",
+            "uri" : "spotify:album:6rRQYCBIXUQi941445Jn7N"
+          }, {
+            "album_type" : "album",
+            "external_urls" : {
+              "spotify" : "https://open.spotify.com/album/04bKxe1Y7WFw4yrDPlmswG"
+            },
+            "href" : "https://api.spotify.com/v1/albums/04bKxe1Y7WFw4yrDPlmswG",
+            "id" : "04bKxe1Y7WFw4yrDPlmswG",
+            "images" : [ {
+              "height" : 571,
+              "url" : "https://i.scdn.co/image/c546edc58700754b9462b0e90f32ec42bf967051",
+              "width" : 640
+            }, {
+              "height" : 267,
+              "url" : "https://i.scdn.co/image/e49d535d33fb43c853ee03b27e3a57057cc92aa8",
+              "width" : 299
+            }, {
+              "height" : 57,
+              "url" : "https://i.scdn.co/image/7079532315d744867bf747c204402109672c55ef",
+              "width" : 64
+            } ],
+            "name" : "Reality (Special Package with Bonus Disc)",
+            "type" : "album",
+            "uri" : "spotify:album:04bKxe1Y7WFw4yrDPlmswG"
+          }, {
+            "album_type" : "album",
+            "external_urls" : {
+              "spotify" : "https://open.spotify.com/album/7KCzAclPBgO5IzVoxORRj1"
+            },
+            "href" : "https://api.spotify.com/v1/albums/7KCzAclPBgO5IzVoxORRj1",
+            "id" : "7KCzAclPBgO5IzVoxORRj1",
+            "images" : [ {
+              "height" : 640,
+              "url" : "https://i.scdn.co/image/f2e5dc075bd72b1d5e08e8ce23536a1dbf2edd60",
+              "width" : 640
+            }, {
+              "height" : 300,
+              "url" : "https://i.scdn.co/image/f47ff4aa1bbbdecb54f0e01e95f260e5e3d619fd",
+              "width" : 300
+            }, {
+              "height" : 64,
+              "url" : "https://i.scdn.co/image/7e137883ddddb9f1297d9d9876f2de32c94581ba",
+              "width" : 64
+            } ],
+            "name" : "Reality (Special Package with Bonus Disc)",
+            "type" : "album",
+            "uri" : "spotify:album:7KCzAclPBgO5IzVoxORRj1"
+          }, {
+            "album_type" : "album",
+            "external_urls" : {
+              "spotify" : "https://open.spotify.com/album/6e4wwfq1AoHldObRJoLuVy"
+            },
+            "href" : "https://api.spotify.com/v1/albums/6e4wwfq1AoHldObRJoLuVy",
+            "id" : "6e4wwfq1AoHldObRJoLuVy",
+            "images" : [ {
+              "height" : 640,
+              "url" : "https://i.scdn.co/image/fb7466a95c8aecc7ba3dfd7b333b15011b2ed8e2",
+              "width" : 640
+            }, {
+              "height" : 300,
+              "url" : "https://i.scdn.co/image/ccbaeb72f3b03c719bdad1e0419de3840e6686bf",
+              "width" : 300
+            }, {
+              "height" : 64,
+              "url" : "https://i.scdn.co/image/c888c2741d9e627ac625ed3d8d357a066a343c77",
+              "width" : 64
+            } ],
+            "name" : "Aladdin Sane - 30th Anniversary Remaster",
+            "type" : "album",
+            "uri" : "spotify:album:6e4wwfq1AoHldObRJoLuVy"
+          }, {
+            "album_type" : "album",
+            "external_urls" : {
+              "spotify" : "https://open.spotify.com/album/2NNbLbiDihQHhEpIhQ93nD"
+            },
+            "href" : "https://api.spotify.com/v1/albums/2NNbLbiDihQHhEpIhQ93nD",
+            "id" : "2NNbLbiDihQHhEpIhQ93nD",
+            "images" : [ {
+              "height" : 640,
+              "url" : "https://i.scdn.co/image/52685e9abf5e1bc7d6ff7afa41ca1ef14b5983b9",
+              "width" : 640
+            }, {
+              "height" : 300,
+              "url" : "https://i.scdn.co/image/984bbcb91df49fbf4eb413e183ea4d696666e7bf",
+              "width" : 300
+            }, {
+              "height" : 64,
+              "url" : "https://i.scdn.co/image/23568e88a039d3f1d0ad04651c6fe90373524312",
+              "width" : 64
+            } ],
+            "name" : "The Rise And Fall Of Ziggy Stardust And The Spiders From Mars [30th Anniversary Edition]",
+            "type" : "album",
+            "uri" : "spotify:album:2NNbLbiDihQHhEpIhQ93nD"
+          }, {
+            "album_type" : "album",
+            "external_urls" : {
+              "spotify" : "https://open.spotify.com/album/3uTHi7vyxrLQWpTv8Mr2yE"
+            },
+            "href" : "https://api.spotify.com/v1/albums/3uTHi7vyxrLQWpTv8Mr2yE",
+            "id" : "3uTHi7vyxrLQWpTv8Mr2yE",
+            "images" : [ {
+              "height" : 640,
+              "url" : "https://i.scdn.co/image/2a557fe42cc7f21d60545f4a3cda3a5c5f777bb3",
+              "width" : 640
+            }, {
+              "height" : 300,
+              "url" : "https://i.scdn.co/image/f9328db1cc65c93551c8ca6dd3d71683f7f92b26",
+              "width" : 300
+            }, {
+              "height" : 64,
+              "url" : "https://i.scdn.co/image/c544f6a879e8d90582faafac07726c218cba2fe6",
+              "width" : 64
+            } ],
+            "name" : "Heathen",
+            "type" : "album",
+            "uri" : "spotify:album:3uTHi7vyxrLQWpTv8Mr2yE"
+          }, {
+            "album_type" : "album",
+            "external_urls" : {
+              "spotify" : "https://open.spotify.com/album/4ieG8sqAw1XbNobjOU5CZH"
+            },
+            "href" : "https://api.spotify.com/v1/albums/4ieG8sqAw1XbNobjOU5CZH",
+            "id" : "4ieG8sqAw1XbNobjOU5CZH",
+            "images" : [ {
+              "height" : 640,
+              "url" : "https://i.scdn.co/image/fb1b004f43dfacedbfa5043239267b2e74e0d87e",
+              "width" : 640
+            }, {
+              "height" : 300,
+              "url" : "https://i.scdn.co/image/ae34ecda4b61f2dea3631292a7d2d066ed5213ca",
+              "width" : 300
+            }, {
+              "height" : 64,
+              "url" : "https://i.scdn.co/image/6fd7ec3ac62782b849c733c14da9bbe3f3dfdc1d",
+              "width" : 64
+            } ],
+            "name" : "Heathen",
+            "type" : "album",
+            "uri" : "spotify:album:4ieG8sqAw1XbNobjOU5CZH"
+          }, {
+            "album_type" : "album",
+            "external_urls" : {
+              "spotify" : "https://open.spotify.com/album/5qmmEEUuZEvouYH67Kr7U7"
+            },
+            "href" : "https://api.spotify.com/v1/albums/5qmmEEUuZEvouYH67Kr7U7",
+            "id" : "5qmmEEUuZEvouYH67Kr7U7",
+            "images" : [ {
+              "height" : 640,
+              "url" : "https://i.scdn.co/image/00466e6ddd03907a9756123b19db6ec2d0eb9c0b",
+              "width" : 640
+            }, {
+              "height" : 300,
+              "url" : "https://i.scdn.co/image/05338d3c8a8820fcb4029ca048fcac30b4f735b1",
+              "width" : 300
+            }, {
+              "height" : 64,
+              "url" : "https://i.scdn.co/image/1b991eb69b71d1cd791b5c3b49217a78508fd20d",
+              "width" : 64
+            } ],
+            "name" : "Heathen",
+            "type" : "album",
+            "uri" : "spotify:album:5qmmEEUuZEvouYH67Kr7U7"
+          }, {
+            "album_type" : "album",
+            "external_urls" : {
+              "spotify" : "https://open.spotify.com/album/5HiBqXTLyP6RtXQJvh6jrV"
+            },
+            "href" : "https://api.spotify.com/v1/albums/5HiBqXTLyP6RtXQJvh6jrV",
+            "id" : "5HiBqXTLyP6RtXQJvh6jrV",
+            "images" : [ {
+              "height" : 640,
+              "url" : "https://i.scdn.co/image/fb1b004f43dfacedbfa5043239267b2e74e0d87e",
+              "width" : 640
+            }, {
+              "height" : 300,
+              "url" : "https://i.scdn.co/image/27c817c759b56acc0a8688e5389e54329a4a47ce",
+              "width" : 300
+            }, {
+              "height" : 64,
+              "url" : "https://i.scdn.co/image/6fd7ec3ac62782b849c733c14da9bbe3f3dfdc1d",
+              "width" : 64
+            } ],
+            "name" : "Heathen",
+            "type" : "album",
+            "uri" : "spotify:album:5HiBqXTLyP6RtXQJvh6jrV"
+          }, {
+            "album_type" : "album",
+            "external_urls" : {
+              "spotify" : "https://open.spotify.com/album/7uragc40EChR4r4ELKUe2N"
+            },
+            "href" : "https://api.spotify.com/v1/albums/7uragc40EChR4r4ELKUe2N",
+            "id" : "7uragc40EChR4r4ELKUe2N",
+            "images" : [ {
+              "height" : 640,
+              "url" : "https://i.scdn.co/image/f486986f6ca876ab7af41e1c9fc6ef9b62431590",
+              "width" : 640
+            }, {
+              "height" : 300,
+              "url" : "https://i.scdn.co/image/ba23c48d216de999756ea944e07da667c036b7f9",
+              "width" : 300
+            }, {
+              "height" : 64,
+              "url" : "https://i.scdn.co/image/e58cf1d41a88cb5db89de3679e5bfdb23390ef97",
+              "width" : 64
+            } ],
+            "name" : "Heathen (Independent Retail Package)",
+            "type" : "album",
+            "uri" : "spotify:album:7uragc40EChR4r4ELKUe2N"
+          } ],
+          "limit" : 20,
+          "next" : "https://api.spotify.com/v1/artists/0oSGxfWSnnOXhD2fKuz2Gy/albums?offset=20&limit=20&album_type=single,album,compilation,appears_on",
+          "offset" : 0,
+          "previous" : null,
+          "total" : 563
+        }
+    http_version: 
+  recorded_at: Sat, 21 Jun 2014 20:17:17 GMT
+recorded_with: VCR 2.9.2

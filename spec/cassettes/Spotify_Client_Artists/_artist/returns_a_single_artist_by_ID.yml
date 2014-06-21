@@ -1,0 +1,81 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.spotify.com/v1/artists/0oSGxfWSnnOXhD2fKuz2Gy
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 21 Jun 2014 20:17:16 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=600
+      Vary:
+      - Accept-Encoding
+      Cache-Control:
+      - public, max-age=7200
+      Access-Control-Allow-Headers:
+      - Accept, Authorization, Origin, Content-Type
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Max-Age:
+      - '604800'
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS, PUT, DELETE
+      Access-Control-Allow-Credentials:
+      - 'true'
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/0oSGxfWSnnOXhD2fKuz2Gy"
+          },
+          "genres" : [ "Adult Alternative Pop/Rock", "Album Rock", "Alternative Pop/Rock", "Alternative/Indie Rock", "Art Rock", "Avant-Garde", "Blue-Eyed Soul", "British Folk", "British Folk-Rock", "British Invasion", "British Psychedelia", "Christmas", "Club/Dance", "Contemporary Folk", "Contemporary Pop/Rock", "Dance-Pop", "Dance-Rock", "Experimental", "Experimental Rock", "Film Music", "Folk-Rock", "Glam Rock", "Hard Rock", "Holiday", "Holidays", "Mod", "Original Score", "Pop/Rock", "Post-Punk", "Progressive Country", "Proto-Punk", "Psychedelic", "Punk/New Wave", "Singer/Songwriter", "Sophisti-Pop", "Soundtracks", "Stage & Screen" ],
+          "href" : "https://api.spotify.com/v1/artists/0oSGxfWSnnOXhD2fKuz2Gy",
+          "id" : "0oSGxfWSnnOXhD2fKuz2Gy",
+          "images" : [ {
+            "height" : 1000,
+            "url" : "https://i.scdn.co/image/32bd9707b42a2c081482ec9cd3ffa8879f659f95",
+            "width" : 1000
+          }, {
+            "height" : 640,
+            "url" : "https://i.scdn.co/image/865f24753e5e4f40a383bf24a9cdda598a4559a8",
+            "width" : 640
+          }, {
+            "height" : 200,
+            "url" : "https://i.scdn.co/image/7ddd6fa5cf78aee2f2e8b347616151393022b7d9",
+            "width" : 200
+          }, {
+            "height" : 64,
+            "url" : "https://i.scdn.co/image/c8dc28c191432862afce298216458a6f00bbfbd8",
+            "width" : 64
+          } ],
+          "name" : "David Bowie",
+          "popularity" : 76,
+          "type" : "artist",
+          "uri" : "spotify:artist:0oSGxfWSnnOXhD2fKuz2Gy"
+        }
+    http_version: 
+  recorded_at: Sat, 21 Jun 2014 20:17:16 GMT
+recorded_with: VCR 2.9.2
