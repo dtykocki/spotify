@@ -3,6 +3,7 @@ require 'pry'
 require 'base64'
 
 require "spotify/client/albums"
+require "spotify/client/artists"
 
 module Spotify
 
@@ -11,6 +12,7 @@ module Spotify
   # @see https://developer.spotify.com/
   class Client
     include Spotify::Client::Albums
+    include Spotify::Client::Artists
 
     def initialize(opts={})
       @client_id = opts[:client_id]
@@ -36,7 +38,7 @@ module Spotify
     # @param options [Hash] Query and header parameters for the request.
     # @return [Sawyer::Resource]
     def get(url, options = {})
-      request :get, url, options
+      request :get, url, parse_query(options)
     end
 
     # Makes an HTTP POST request.
@@ -50,8 +52,12 @@ module Spotify
 
     private
 
-    def request(method, url, options = {})
-      response = agent.call(method, url, {}, options)
+    def parse_query(options)
+      opts = { query: options }
+    end
+
+    def request(method, url, options = {}, data = {})
+      response = agent.call(method, url, data, options)
       response.data
     end
   end
