@@ -27,12 +27,18 @@ module Spotify
     end
 
     def get(url, options = {})
-      response = agent.call(:get, url, {}, options)
-      response.data
+      request :get, url, options
     end
 
     def post(url, options = {})
-      reponse = agent.call(:post, url, {}, options)
+      request :post, url, options
+    end
+
+    private
+
+    def request(method, url, options = {})
+      response = agent.call(method, url, {}, options)
+      response.data
     end
   end
 end

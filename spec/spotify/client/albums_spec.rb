@@ -14,4 +14,11 @@ describe Spotify::Client::Albums do
       expect(obj.albums.count).to eq(2)
     end
   end
+
+  describe ".album_tracks" do
+    it "returns all tracks for the given album" do
+      response = Spotify.client.album_tracks("0sNOF9WDwhWunNAHPD3Baj")
+      expect(response.items.count).to be > 0
+    end
+  end
 end
