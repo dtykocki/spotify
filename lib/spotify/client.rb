@@ -4,6 +4,7 @@ require 'base64'
 
 require "spotify/client/albums"
 require "spotify/client/artists"
+require "spotify/client/tracks"
 
 module Spotify
 
@@ -13,6 +14,7 @@ module Spotify
   class Client
     include Spotify::Client::Albums
     include Spotify::Client::Artists
+    include Spotify::Client::Tracks
 
     def initialize(opts={})
       @client_id = opts[:client_id]
