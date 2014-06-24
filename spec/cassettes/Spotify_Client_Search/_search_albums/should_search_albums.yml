@@ -1,0 +1,111 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.spotify.com/v1/search?q=vengeance%20falls&type=album
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 24 Jun 2014 09:01:03 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=600
+      Vary:
+      - Accept-Encoding
+      Cache-Control:
+      - public, max-age=7200
+      Access-Control-Allow-Headers:
+      - Accept, Authorization, Origin, Content-Type
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Max-Age:
+      - '604800'
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS, PUT, DELETE
+      Access-Control-Allow-Credentials:
+      - 'true'
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "albums" : {
+            "href" : "https://api.spotify.com/v1/search?query=vengeance+falls&offset=0&limit=20&type=album",
+            "items" : [ {
+              "album_type" : "album",
+              "available_markets" : [ "AD", "AR", "AT", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+              "external_urls" : {
+                "spotify" : "https://open.spotify.com/album/1hamGtmqitOROTKc0yNhow"
+              },
+              "href" : "https://api.spotify.com/v1/albums/1hamGtmqitOROTKc0yNhow",
+              "id" : "1hamGtmqitOROTKc0yNhow",
+              "images" : [ {
+                "height" : 640,
+                "url" : "https://i.scdn.co/image/5687fb0f908635d7e22111b14c20127d91bbfcc4",
+                "width" : 640
+              }, {
+                "height" : 300,
+                "url" : "https://i.scdn.co/image/c260d9bd0b0df53f41a0efdecf78bb367c4be8d0",
+                "width" : 300
+              }, {
+                "height" : 64,
+                "url" : "https://i.scdn.co/image/05c14e4f496cbfd63e7a981f4d46565b42194238",
+                "width" : 64
+              } ],
+              "name" : "Vengeance Falls (Special Edition)",
+              "type" : "album",
+              "uri" : "spotify:album:1hamGtmqitOROTKc0yNhow"
+            }, {
+              "album_type" : "album",
+              "available_markets" : [ "AD", "AR", "AU", "BE", "BO", "BR", "CA", "CL", "CO", "CR", "CY", "DK", "DO", "EC", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "IE", "IS", "IT", "LU", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PT", "PY", "SE", "SG", "SV", "TR", "TW", "US", "UY" ],
+              "external_urls" : {
+                "spotify" : "https://open.spotify.com/album/5qI1swLFBDtgo9Q7lS2GcT"
+              },
+              "href" : "https://api.spotify.com/v1/albums/5qI1swLFBDtgo9Q7lS2GcT",
+              "id" : "5qI1swLFBDtgo9Q7lS2GcT",
+              "images" : [ {
+                "height" : 640,
+                "url" : "https://i.scdn.co/image/5687fb0f908635d7e22111b14c20127d91bbfcc4",
+                "width" : 640
+              }, {
+                "height" : 300,
+                "url" : "https://i.scdn.co/image/c260d9bd0b0df53f41a0efdecf78bb367c4be8d0",
+                "width" : 300
+              }, {
+                "height" : 64,
+                "url" : "https://i.scdn.co/image/05c14e4f496cbfd63e7a981f4d46565b42194238",
+                "width" : 64
+              } ],
+              "name" : "Vengeance Falls",
+              "type" : "album",
+              "uri" : "spotify:album:5qI1swLFBDtgo9Q7lS2GcT"
+            } ],
+            "limit" : 20,
+            "next" : null,
+            "offset" : 0,
+            "previous" : null,
+            "total" : 2
+          }
+        }
+    http_version: 
+  recorded_at: Tue, 24 Jun 2014 09:01:03 GMT
+recorded_with: VCR 2.9.2

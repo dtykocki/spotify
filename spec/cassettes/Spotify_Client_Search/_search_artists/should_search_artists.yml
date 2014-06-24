@@ -1,0 +1,135 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.spotify.com/v1/search?q=trivium&type=artist
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 24 Jun 2014 09:01:04 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=600
+      Vary:
+      - Accept-Encoding
+      Cache-Control:
+      - public, max-age=7200
+      Access-Control-Allow-Headers:
+      - Accept, Authorization, Origin, Content-Type
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Max-Age:
+      - '604800'
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS, PUT, DELETE
+      Access-Control-Allow-Credentials:
+      - 'true'
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "artists" : {
+            "href" : "https://api.spotify.com/v1/search?query=trivium&offset=0&limit=20&type=artist",
+            "items" : [ {
+              "external_urls" : {
+                "spotify" : "https://open.spotify.com/artist/278ZYwGhdK6QTzE3MFePnP"
+              },
+              "genres" : [ "Alternative Metal", "Alternative Pop/Rock", "Black Metal", "Heavy Metal", "Pop/Rock" ],
+              "href" : "https://api.spotify.com/v1/artists/278ZYwGhdK6QTzE3MFePnP",
+              "id" : "278ZYwGhdK6QTzE3MFePnP",
+              "images" : [ {
+                "height" : 667,
+                "url" : "https://i.scdn.co/image/3bd3419db1811556c3a4106e0aff4d00497e17f8",
+                "width" : 1000
+              }, {
+                "height" : 427,
+                "url" : "https://i.scdn.co/image/523700ce40c4f471c642f468af3ca9d50dba8b0b",
+                "width" : 640
+              }, {
+                "height" : 133,
+                "url" : "https://i.scdn.co/image/13bc360b1123e2991edded7e95f3e1bb909ff256",
+                "width" : 200
+              }, {
+                "height" : 43,
+                "url" : "https://i.scdn.co/image/538a808edba30528c691de0b603515d7fcd9ee81",
+                "width" : 64
+              } ],
+              "name" : "Trivium",
+              "popularity" : 38,
+              "type" : "artist",
+              "uri" : "spotify:artist:278ZYwGhdK6QTzE3MFePnP"
+            }, {
+              "external_urls" : {
+                "spotify" : "https://open.spotify.com/artist/0RNqIh5OLbzmnddZWfv3t8"
+              },
+              "genres" : [ ],
+              "href" : "https://api.spotify.com/v1/artists/0RNqIh5OLbzmnddZWfv3t8",
+              "id" : "0RNqIh5OLbzmnddZWfv3t8",
+              "images" : [ {
+                "height" : 640,
+                "url" : "https://i.scdn.co/image/dcd01316a6fbb4234e268ff60ad80abb3490dbe7",
+                "width" : 640
+              }, {
+                "height" : 300,
+                "url" : "https://i.scdn.co/image/4cb68835ddfeefac7484d931619db5b2cb563624",
+                "width" : 300
+              }, {
+                "height" : 64,
+                "url" : "https://i.scdn.co/image/8ee8ae7165b932314fa091de0c4b355ef31222a9",
+                "width" : 64
+              } ],
+              "name" : "Trivium Klezmer",
+              "popularity" : 0,
+              "type" : "artist",
+              "uri" : "spotify:artist:0RNqIh5OLbzmnddZWfv3t8"
+            }, {
+              "external_urls" : {
+                "spotify" : "https://open.spotify.com/artist/3NNQEbi4i89NdQ05Dfutc2"
+              },
+              "genres" : [ ],
+              "href" : "https://api.spotify.com/v1/artists/3NNQEbi4i89NdQ05Dfutc2",
+              "id" : "3NNQEbi4i89NdQ05Dfutc2",
+              "images" : [ {
+                "height" : 300,
+                "url" : "https://i.scdn.co/image/399f3b8f27914f7c5399315d471c2e56237905c9",
+                "width" : 300
+              }, {
+                "height" : 64,
+                "url" : "https://i.scdn.co/image/d537db8ede270b97d883c047f58aa808f37a8b3c",
+                "width" : 64
+              } ],
+              "name" : "Interview with Trivium",
+              "popularity" : 0,
+              "type" : "artist",
+              "uri" : "spotify:artist:3NNQEbi4i89NdQ05Dfutc2"
+            } ],
+            "limit" : 20,
+            "next" : null,
+            "offset" : 0,
+            "previous" : null,
+            "total" : 3
+          }
+        }
+    http_version: 
+  recorded_at: Tue, 24 Jun 2014 09:01:04 GMT
+recorded_with: VCR 2.9.2

@@ -1,0 +1,1143 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.spotify.com/v1/search?q=strife&type=track
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 24 Jun 2014 09:01:03 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=600
+      Vary:
+      - Accept-Encoding
+      Cache-Control:
+      - public, max-age=7200
+      Access-Control-Allow-Headers:
+      - Accept, Authorization, Origin, Content-Type
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Max-Age:
+      - '604800'
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS, PUT, DELETE
+      Access-Control-Allow-Credentials:
+      - 'true'
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "tracks" : {
+            "href" : "https://api.spotify.com/v1/search?query=strife&offset=0&limit=20&type=track",
+            "items" : [ {
+              "album" : {
+                "album_type" : "single",
+                "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+                "external_urls" : {
+                  "spotify" : "https://open.spotify.com/album/41FWHIk05ZDXYe7RwCd1fL"
+                },
+                "href" : "https://api.spotify.com/v1/albums/41FWHIk05ZDXYe7RwCd1fL",
+                "id" : "41FWHIk05ZDXYe7RwCd1fL",
+                "images" : [ {
+                  "height" : 640,
+                  "url" : "https://i.scdn.co/image/146a0fb9b604516a2c86df6cfc08c579e7c8f49e",
+                  "width" : 640
+                }, {
+                  "height" : 300,
+                  "url" : "https://i.scdn.co/image/2ca572ace2a48521c47f40b59c06342b06f4ae84",
+                  "width" : 300
+                }, {
+                  "height" : 64,
+                  "url" : "https://i.scdn.co/image/570c78e0393def0b9760e22a3994702e0a7698eb",
+                  "width" : 64
+                } ],
+                "name" : "Strife",
+                "type" : "album",
+                "uri" : "spotify:album:41FWHIk05ZDXYe7RwCd1fL"
+              },
+              "artists" : [ {
+                "external_urls" : {
+                  "spotify" : "https://open.spotify.com/artist/278ZYwGhdK6QTzE3MFePnP"
+                },
+                "href" : "https://api.spotify.com/v1/artists/278ZYwGhdK6QTzE3MFePnP",
+                "id" : "278ZYwGhdK6QTzE3MFePnP",
+                "name" : "Trivium",
+                "type" : "artist",
+                "uri" : "spotify:artist:278ZYwGhdK6QTzE3MFePnP"
+              } ],
+              "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+              "disc_number" : 1,
+              "duration_ms" : 269266,
+              "explicit" : false,
+              "external_ids" : {
+                "isrc" : "NLA321392802"
+              },
+              "external_urls" : {
+                "spotify" : "https://open.spotify.com/track/7iR5p8zShNtR7Cl9JcRQL7"
+              },
+              "href" : "https://api.spotify.com/v1/tracks/7iR5p8zShNtR7Cl9JcRQL7",
+              "id" : "7iR5p8zShNtR7Cl9JcRQL7",
+              "name" : "Strife",
+              "popularity" : 51,
+              "preview_url" : "https://p.scdn.co/mp3-preview/0b21d70ddf6a3b55e777160bdb5633f1af01bd0b",
+              "track_number" : 1,
+              "type" : "track",
+              "uri" : "spotify:track:7iR5p8zShNtR7Cl9JcRQL7"
+            }, {
+              "album" : {
+                "album_type" : "album",
+                "available_markets" : [ "AD", "AR", "AT", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+                "external_urls" : {
+                  "spotify" : "https://open.spotify.com/album/1hamGtmqitOROTKc0yNhow"
+                },
+                "href" : "https://api.spotify.com/v1/albums/1hamGtmqitOROTKc0yNhow",
+                "id" : "1hamGtmqitOROTKc0yNhow",
+                "images" : [ {
+                  "height" : 640,
+                  "url" : "https://i.scdn.co/image/5687fb0f908635d7e22111b14c20127d91bbfcc4",
+                  "width" : 640
+                }, {
+                  "height" : 300,
+                  "url" : "https://i.scdn.co/image/c260d9bd0b0df53f41a0efdecf78bb367c4be8d0",
+                  "width" : 300
+                }, {
+                  "height" : 64,
+                  "url" : "https://i.scdn.co/image/05c14e4f496cbfd63e7a981f4d46565b42194238",
+                  "width" : 64
+                } ],
+                "name" : "Vengeance Falls (Special Edition)",
+                "type" : "album",
+                "uri" : "spotify:album:1hamGtmqitOROTKc0yNhow"
+              },
+              "artists" : [ {
+                "external_urls" : {
+                  "spotify" : "https://open.spotify.com/artist/278ZYwGhdK6QTzE3MFePnP"
+                },
+                "href" : "https://api.spotify.com/v1/artists/278ZYwGhdK6QTzE3MFePnP",
+                "id" : "278ZYwGhdK6QTzE3MFePnP",
+                "name" : "Trivium",
+                "type" : "artist",
+                "uri" : "spotify:artist:278ZYwGhdK6QTzE3MFePnP"
+              } ],
+              "available_markets" : [ "AD", "AR", "AT", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+              "disc_number" : 1,
+              "duration_ms" : 269266,
+              "explicit" : false,
+              "external_ids" : {
+                "isrc" : "NLA321392802"
+              },
+              "external_urls" : {
+                "spotify" : "https://open.spotify.com/track/15zUfY9L1p7bN9JsgaTAP0"
+              },
+              "href" : "https://api.spotify.com/v1/tracks/15zUfY9L1p7bN9JsgaTAP0",
+              "id" : "15zUfY9L1p7bN9JsgaTAP0",
+              "name" : "Strife",
+              "popularity" : 57,
+              "preview_url" : "https://p.scdn.co/mp3-preview/0b21d70ddf6a3b55e777160bdb5633f1af01bd0b",
+              "track_number" : 3,
+              "type" : "track",
+              "uri" : "spotify:track:15zUfY9L1p7bN9JsgaTAP0"
+            }, {
+              "album" : {
+                "album_type" : "album",
+                "available_markets" : [ "AD", "AR", "AU", "BE", "BO", "BR", "CA", "CL", "CO", "CR", "CY", "DK", "DO", "EC", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "IE", "IS", "IT", "LU", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PT", "PY", "SE", "SG", "SV", "TR", "TW", "US", "UY" ],
+                "external_urls" : {
+                  "spotify" : "https://open.spotify.com/album/5qI1swLFBDtgo9Q7lS2GcT"
+                },
+                "href" : "https://api.spotify.com/v1/albums/5qI1swLFBDtgo9Q7lS2GcT",
+                "id" : "5qI1swLFBDtgo9Q7lS2GcT",
+                "images" : [ {
+                  "height" : 640,
+                  "url" : "https://i.scdn.co/image/5687fb0f908635d7e22111b14c20127d91bbfcc4",
+                  "width" : 640
+                }, {
+                  "height" : 300,
+                  "url" : "https://i.scdn.co/image/c260d9bd0b0df53f41a0efdecf78bb367c4be8d0",
+                  "width" : 300
+                }, {
+                  "height" : 64,
+                  "url" : "https://i.scdn.co/image/05c14e4f496cbfd63e7a981f4d46565b42194238",
+                  "width" : 64
+                } ],
+                "name" : "Vengeance Falls",
+                "type" : "album",
+                "uri" : "spotify:album:5qI1swLFBDtgo9Q7lS2GcT"
+              },
+              "artists" : [ {
+                "external_urls" : {
+                  "spotify" : "https://open.spotify.com/artist/278ZYwGhdK6QTzE3MFePnP"
+                },
+                "href" : "https://api.spotify.com/v1/artists/278ZYwGhdK6QTzE3MFePnP",
+                "id" : "278ZYwGhdK6QTzE3MFePnP",
+                "name" : "Trivium",
+                "type" : "artist",
+                "uri" : "spotify:artist:278ZYwGhdK6QTzE3MFePnP"
+              } ],
+              "available_markets" : [ "AD", "AR", "AU", "BE", "BO", "BR", "CA", "CL", "CO", "CR", "CY", "DK", "DO", "EC", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "IE", "IS", "IT", "LU", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PT", "PY", "SE", "SG", "SV", "TR", "TW", "US", "UY" ],
+              "disc_number" : 1,
+              "duration_ms" : 269266,
+              "explicit" : false,
+              "external_ids" : {
+                "isrc" : "NLA321392802"
+              },
+              "external_urls" : {
+                "spotify" : "https://open.spotify.com/track/1pPlSUdw0SoYHi2YBa57j8"
+              },
+              "href" : "https://api.spotify.com/v1/tracks/1pPlSUdw0SoYHi2YBa57j8",
+              "id" : "1pPlSUdw0SoYHi2YBa57j8",
+              "name" : "Strife",
+              "popularity" : 42,
+              "preview_url" : "https://p.scdn.co/mp3-preview/0b21d70ddf6a3b55e777160bdb5633f1af01bd0b",
+              "track_number" : 3,
+              "type" : "track",
+              "uri" : "spotify:track:1pPlSUdw0SoYHi2YBa57j8"
+            }, {
+              "album" : {
+                "album_type" : "album",
+                "available_markets" : [ "AD", "AR", "AT", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+                "external_urls" : {
+                  "spotify" : "https://open.spotify.com/album/0S466XEmkMM7oFcVgo1zMR"
+                },
+                "href" : "https://api.spotify.com/v1/albums/0S466XEmkMM7oFcVgo1zMR",
+                "id" : "0S466XEmkMM7oFcVgo1zMR",
+                "images" : [ {
+                  "height" : 640,
+                  "url" : "https://i.scdn.co/image/4ef53336626ee81e7fddd0e59b264d594c5951cb",
+                  "width" : 640
+                }, {
+                  "height" : 300,
+                  "url" : "https://i.scdn.co/image/e02adb4678ff76cd7a3c13b844c0a930f4018370",
+                  "width" : 300
+                }, {
+                  "height" : 64,
+                  "url" : "https://i.scdn.co/image/280a3219dae47d6d10eeb486488a5e4c1d4b519c",
+                  "width" : 64
+                } ],
+                "name" : "TOTAL STRIFE FOREVER",
+                "type" : "album",
+                "uri" : "spotify:album:0S466XEmkMM7oFcVgo1zMR"
+              },
+              "artists" : [ {
+                "external_urls" : {
+                  "spotify" : "https://open.spotify.com/artist/6cyAaSbk3g5iaLDL8sygpQ"
+                },
+                "href" : "https://api.spotify.com/v1/artists/6cyAaSbk3g5iaLDL8sygpQ",
+                "id" : "6cyAaSbk3g5iaLDL8sygpQ",
+                "name" : "East India Youth",
+                "type" : "artist",
+                "uri" : "spotify:artist:6cyAaSbk3g5iaLDL8sygpQ"
+              } ],
+              "available_markets" : [ "AD", "AR", "AT", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+              "disc_number" : 1,
+              "duration_ms" : 254685,
+              "explicit" : false,
+              "external_ids" : {
+                "isrc" : "GBPKZ1300032"
+              },
+              "external_urls" : {
+                "spotify" : "https://open.spotify.com/track/03S1CzIhXPAndkES4hIvPa"
+              },
+              "href" : "https://api.spotify.com/v1/tracks/03S1CzIhXPAndkES4hIvPa",
+              "id" : "03S1CzIhXPAndkES4hIvPa",
+              "name" : "DRIPPING DOWN",
+              "popularity" : 43,
+              "preview_url" : "https://p.scdn.co/mp3-preview/580433e46fd25c2e05d3007a6fef3a6f66687b9b",
+              "track_number" : 3,
+              "type" : "track",
+              "uri" : "spotify:track:03S1CzIhXPAndkES4hIvPa"
+            }, {
+              "album" : {
+                "album_type" : "album",
+                "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+                "external_urls" : {
+                  "spotify" : "https://open.spotify.com/album/0aMC5DDAF86GvYNPaivEKd"
+                },
+                "href" : "https://api.spotify.com/v1/albums/0aMC5DDAF86GvYNPaivEKd",
+                "id" : "0aMC5DDAF86GvYNPaivEKd",
+                "images" : [ {
+                  "height" : 640,
+                  "url" : "https://i.scdn.co/image/2b5693eae86e03176ab791a392af6337a57d35b0",
+                  "width" : 640
+                }, {
+                  "height" : 300,
+                  "url" : "https://i.scdn.co/image/ce13621a18891b9400b7c6bb3e59758f6872eb2f",
+                  "width" : 300
+                }, {
+                  "height" : 64,
+                  "url" : "https://i.scdn.co/image/18f2148e5fa460ac732fea8e76623c51be0fbcbd",
+                  "width" : 64
+                } ],
+                "name" : "Silence Yourself",
+                "type" : "album",
+                "uri" : "spotify:album:0aMC5DDAF86GvYNPaivEKd"
+              },
+              "artists" : [ {
+                "external_urls" : {
+                  "spotify" : "https://open.spotify.com/artist/1WFsBUAgQmrGQQEUyFKS60"
+                },
+                "href" : "https://api.spotify.com/v1/artists/1WFsBUAgQmrGQQEUyFKS60",
+                "id" : "1WFsBUAgQmrGQQEUyFKS60",
+                "name" : "Savages",
+                "type" : "artist",
+                "uri" : "spotify:artist:1WFsBUAgQmrGQQEUyFKS60"
+              } ],
+              "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+              "disc_number" : 1,
+              "duration_ms" : 237746,
+              "explicit" : false,
+              "external_ids" : {
+                "isrc" : "USMTD1303561"
+              },
+              "external_urls" : {
+                "spotify" : "https://open.spotify.com/track/1jJE6kIho33FcUZMyxz58m"
+              },
+              "href" : "https://api.spotify.com/v1/tracks/1jJE6kIho33FcUZMyxz58m",
+              "id" : "1jJE6kIho33FcUZMyxz58m",
+              "name" : "Strife",
+              "popularity" : 40,
+              "preview_url" : "https://p.scdn.co/mp3-preview/1ba97928b3949500709e62f1172454740b287b4b",
+              "track_number" : 4,
+              "type" : "track",
+              "uri" : "spotify:track:1jJE6kIho33FcUZMyxz58m"
+            }, {
+              "album" : {
+                "album_type" : "album",
+                "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+                "external_urls" : {
+                  "spotify" : "https://open.spotify.com/album/3PnhuL5bs8JBtZs7L00OW6"
+                },
+                "href" : "https://api.spotify.com/v1/albums/3PnhuL5bs8JBtZs7L00OW6",
+                "id" : "3PnhuL5bs8JBtZs7L00OW6",
+                "images" : [ {
+                  "height" : 640,
+                  "url" : "https://i.scdn.co/image/967b718e1dc6144c6bef68507c1d6bde11502693",
+                  "width" : 640
+                }, {
+                  "height" : 300,
+                  "url" : "https://i.scdn.co/image/b0f7d9127a90c97d3aba44bd19a211e5caeadb18",
+                  "width" : 300
+                }, {
+                  "height" : 64,
+                  "url" : "https://i.scdn.co/image/770bc580fcafaf0c4be2c3ec1a8dc6dd4685854a",
+                  "width" : 64
+                } ],
+                "name" : "Tombstone Remixes",
+                "type" : "album",
+                "uri" : "spotify:album:3PnhuL5bs8JBtZs7L00OW6"
+              },
+              "artists" : [ {
+                "external_urls" : {
+                  "spotify" : "https://open.spotify.com/artist/1qk0bh3U8tT4etqYPdKg5d"
+                },
+                "href" : "https://api.spotify.com/v1/artists/1qk0bh3U8tT4etqYPdKg5d",
+                "id" : "1qk0bh3U8tT4etqYPdKg5d",
+                "name" : "H8 Seed",
+                "type" : "artist",
+                "uri" : "spotify:artist:1qk0bh3U8tT4etqYPdKg5d"
+              } ],
+              "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+              "disc_number" : 1,
+              "duration_ms" : 194220,
+              "explicit" : false,
+              "external_ids" : {
+                "isrc" : "USDHM1307938"
+              },
+              "external_urls" : {
+                "spotify" : "https://open.spotify.com/track/3QdrGcRHZfN5JzshRLWLeu"
+              },
+              "href" : "https://api.spotify.com/v1/tracks/3QdrGcRHZfN5JzshRLWLeu",
+              "id" : "3QdrGcRHZfN5JzshRLWLeu",
+              "name" : "Neverending Strife",
+              "popularity" : 34,
+              "preview_url" : "https://p.scdn.co/mp3-preview/00da74b8cdc40be1fba673ab29468b6ac5ea38f2",
+              "track_number" : 3,
+              "type" : "track",
+              "uri" : "spotify:track:3QdrGcRHZfN5JzshRLWLeu"
+            }, {
+              "album" : {
+                "album_type" : "album",
+                "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+                "external_urls" : {
+                  "spotify" : "https://open.spotify.com/album/5ocaOior2AINNCndWogRAw"
+                },
+                "href" : "https://api.spotify.com/v1/albums/5ocaOior2AINNCndWogRAw",
+                "id" : "5ocaOior2AINNCndWogRAw",
+                "images" : [ {
+                  "height" : 640,
+                  "url" : "https://i.scdn.co/image/1964dcb18b6cc341eaf9abe9e1b57dfeb00b74c6",
+                  "width" : 640
+                }, {
+                  "height" : 300,
+                  "url" : "https://i.scdn.co/image/b3a1e5dc7bcf8f6d1e879c36c2325863005fd35c",
+                  "width" : 300
+                }, {
+                  "height" : 64,
+                  "url" : "https://i.scdn.co/image/30b0c6130b174db0a59cd126c6f0f9ed1b7b8f57",
+                  "width" : 64
+                } ],
+                "name" : "Witness a Rebirth",
+                "type" : "album",
+                "uri" : "spotify:album:5ocaOior2AINNCndWogRAw"
+              },
+              "artists" : [ {
+                "external_urls" : {
+                  "spotify" : "https://open.spotify.com/artist/68qsduRCs8caw95bbF4IDD"
+                },
+                "href" : "https://api.spotify.com/v1/artists/68qsduRCs8caw95bbF4IDD",
+                "id" : "68qsduRCs8caw95bbF4IDD",
+                "name" : "Strife",
+                "type" : "artist",
+                "uri" : "spotify:artist:68qsduRCs8caw95bbF4IDD"
+              } ],
+              "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+              "disc_number" : 1,
+              "duration_ms" : 114173,
+              "explicit" : false,
+              "external_ids" : {
+                "isrc" : "USA2P1273374"
+              },
+              "external_urls" : {
+                "spotify" : "https://open.spotify.com/track/48rsC7fAQ70NmPIAF42ql9"
+              },
+              "href" : "https://api.spotify.com/v1/tracks/48rsC7fAQ70NmPIAF42ql9",
+              "id" : "48rsC7fAQ70NmPIAF42ql9",
+              "name" : "Torn Apart",
+              "popularity" : 30,
+              "preview_url" : "https://p.scdn.co/mp3-preview/065dd60ac957c403b905bfc2f107463e2ed02895",
+              "track_number" : 1,
+              "type" : "track",
+              "uri" : "spotify:track:48rsC7fAQ70NmPIAF42ql9"
+            }, {
+              "album" : {
+                "album_type" : "single",
+                "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+                "external_urls" : {
+                  "spotify" : "https://open.spotify.com/album/0Mz7S3dlSvERsNqHPF6FPY"
+                },
+                "href" : "https://api.spotify.com/v1/albums/0Mz7S3dlSvERsNqHPF6FPY",
+                "id" : "0Mz7S3dlSvERsNqHPF6FPY",
+                "images" : [ {
+                  "height" : 640,
+                  "url" : "https://i.scdn.co/image/2bd2fa27a2cf0c010896205f70ca9d6eccbf040f",
+                  "width" : 640
+                }, {
+                  "height" : 300,
+                  "url" : "https://i.scdn.co/image/2dd243b66d0ed7a070989d9ea960d0957af6942a",
+                  "width" : 300
+                }, {
+                  "height" : 64,
+                  "url" : "https://i.scdn.co/image/a2514a70ab56c845b2d8bd903e78151c57f3a2b0",
+                  "width" : 64
+                } ],
+                "name" : "Galaxy Of Dreams",
+                "type" : "album",
+                "uri" : "spotify:album:0Mz7S3dlSvERsNqHPF6FPY"
+              },
+              "artists" : [ {
+                "external_urls" : {
+                  "spotify" : "https://open.spotify.com/artist/6NuLGShThLPw6L855Rexlr"
+                },
+                "href" : "https://api.spotify.com/v1/artists/6NuLGShThLPw6L855Rexlr",
+                "id" : "6NuLGShThLPw6L855Rexlr",
+                "name" : "Strife II",
+                "type" : "artist",
+                "uri" : "spotify:artist:6NuLGShThLPw6L855Rexlr"
+              } ],
+              "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+              "disc_number" : 1,
+              "duration_ms" : 280000,
+              "explicit" : false,
+              "external_ids" : {
+                "isrc" : "NLCK41019953"
+              },
+              "external_urls" : {
+                "spotify" : "https://open.spotify.com/track/2RxDi3wLRUgFz4hSkVFyqC"
+              },
+              "href" : "https://api.spotify.com/v1/tracks/2RxDi3wLRUgFz4hSkVFyqC",
+              "id" : "2RxDi3wLRUgFz4hSkVFyqC",
+              "name" : "How Do I - Maduk Remix",
+              "popularity" : 32,
+              "preview_url" : "https://p.scdn.co/mp3-preview/dda44066365c26595d4dc64baf48e23de55c7011",
+              "track_number" : 6,
+              "type" : "track",
+              "uri" : "spotify:track:2RxDi3wLRUgFz4hSkVFyqC"
+            }, {
+              "album" : {
+                "album_type" : "album",
+                "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+                "external_urls" : {
+                  "spotify" : "https://open.spotify.com/album/5ocaOior2AINNCndWogRAw"
+                },
+                "href" : "https://api.spotify.com/v1/albums/5ocaOior2AINNCndWogRAw",
+                "id" : "5ocaOior2AINNCndWogRAw",
+                "images" : [ {
+                  "height" : 640,
+                  "url" : "https://i.scdn.co/image/1964dcb18b6cc341eaf9abe9e1b57dfeb00b74c6",
+                  "width" : 640
+                }, {
+                  "height" : 300,
+                  "url" : "https://i.scdn.co/image/b3a1e5dc7bcf8f6d1e879c36c2325863005fd35c",
+                  "width" : 300
+                }, {
+                  "height" : 64,
+                  "url" : "https://i.scdn.co/image/30b0c6130b174db0a59cd126c6f0f9ed1b7b8f57",
+                  "width" : 64
+                } ],
+                "name" : "Witness a Rebirth",
+                "type" : "album",
+                "uri" : "spotify:album:5ocaOior2AINNCndWogRAw"
+              },
+              "artists" : [ {
+                "external_urls" : {
+                  "spotify" : "https://open.spotify.com/artist/68qsduRCs8caw95bbF4IDD"
+                },
+                "href" : "https://api.spotify.com/v1/artists/68qsduRCs8caw95bbF4IDD",
+                "id" : "68qsduRCs8caw95bbF4IDD",
+                "name" : "Strife",
+                "type" : "artist",
+                "uri" : "spotify:artist:68qsduRCs8caw95bbF4IDD"
+              } ],
+              "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+              "disc_number" : 1,
+              "duration_ms" : 173466,
+              "explicit" : false,
+              "external_ids" : {
+                "isrc" : "USA2P1273375"
+              },
+              "external_urls" : {
+                "spotify" : "https://open.spotify.com/track/3WxFGAF1IhiHUPmdaaAJkZ"
+              },
+              "href" : "https://api.spotify.com/v1/tracks/3WxFGAF1IhiHUPmdaaAJkZ",
+              "id" : "3WxFGAF1IhiHUPmdaaAJkZ",
+              "name" : "Carry the Torch",
+              "popularity" : 29,
+              "preview_url" : "https://p.scdn.co/mp3-preview/07318d08429ef2075eccc87755b05ae91047bcd7",
+              "track_number" : 2,
+              "type" : "track",
+              "uri" : "spotify:track:3WxFGAF1IhiHUPmdaaAJkZ"
+            }, {
+              "album" : {
+                "album_type" : "album",
+                "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+                "external_urls" : {
+                  "spotify" : "https://open.spotify.com/album/2dJ2HAbutOrZb3wqbYmRlR"
+                },
+                "href" : "https://api.spotify.com/v1/albums/2dJ2HAbutOrZb3wqbYmRlR",
+                "id" : "2dJ2HAbutOrZb3wqbYmRlR",
+                "images" : [ {
+                  "height" : 640,
+                  "url" : "https://i.scdn.co/image/6ec9a5d42c6029ee27f94d4ff8ed0f79f94957e2",
+                  "width" : 640
+                }, {
+                  "height" : 300,
+                  "url" : "https://i.scdn.co/image/80da6d9fc327e2c78aefd95dff1ea5efe3cc3ced",
+                  "width" : 300
+                }, {
+                  "height" : 64,
+                  "url" : "https://i.scdn.co/image/82e671191f0808092dce72ef73b528ecb75cdd0c",
+                  "width" : 64
+                } ],
+                "name" : "In This Defiance",
+                "type" : "album",
+                "uri" : "spotify:album:2dJ2HAbutOrZb3wqbYmRlR"
+              },
+              "artists" : [ {
+                "external_urls" : {
+                  "spotify" : "https://open.spotify.com/artist/68qsduRCs8caw95bbF4IDD"
+                },
+                "href" : "https://api.spotify.com/v1/artists/68qsduRCs8caw95bbF4IDD",
+                "id" : "68qsduRCs8caw95bbF4IDD",
+                "name" : "Strife",
+                "type" : "artist",
+                "uri" : "spotify:artist:68qsduRCs8caw95bbF4IDD"
+              } ],
+              "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+              "disc_number" : 1,
+              "duration_ms" : 147186,
+              "explicit" : false,
+              "external_ids" : {
+                "isrc" : "USVIC9705407"
+              },
+              "external_urls" : {
+                "spotify" : "https://open.spotify.com/track/0qFcZFSH5P6gT5FnPvCQ7X"
+              },
+              "href" : "https://api.spotify.com/v1/tracks/0qFcZFSH5P6gT5FnPvCQ7X",
+              "id" : "0qFcZFSH5P6gT5FnPvCQ7X",
+              "name" : "Blistered",
+              "popularity" : 28,
+              "preview_url" : "https://p.scdn.co/mp3-preview/1d52de88d31c5f34d98ebb43d7fd006a2b865198",
+              "track_number" : 7,
+              "type" : "track",
+              "uri" : "spotify:track:0qFcZFSH5P6gT5FnPvCQ7X"
+            }, {
+              "album" : {
+                "album_type" : "album",
+                "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+                "external_urls" : {
+                  "spotify" : "https://open.spotify.com/album/2dJ2HAbutOrZb3wqbYmRlR"
+                },
+                "href" : "https://api.spotify.com/v1/albums/2dJ2HAbutOrZb3wqbYmRlR",
+                "id" : "2dJ2HAbutOrZb3wqbYmRlR",
+                "images" : [ {
+                  "height" : 640,
+                  "url" : "https://i.scdn.co/image/6ec9a5d42c6029ee27f94d4ff8ed0f79f94957e2",
+                  "width" : 640
+                }, {
+                  "height" : 300,
+                  "url" : "https://i.scdn.co/image/80da6d9fc327e2c78aefd95dff1ea5efe3cc3ced",
+                  "width" : 300
+                }, {
+                  "height" : 64,
+                  "url" : "https://i.scdn.co/image/82e671191f0808092dce72ef73b528ecb75cdd0c",
+                  "width" : 64
+                } ],
+                "name" : "In This Defiance",
+                "type" : "album",
+                "uri" : "spotify:album:2dJ2HAbutOrZb3wqbYmRlR"
+              },
+              "artists" : [ {
+                "external_urls" : {
+                  "spotify" : "https://open.spotify.com/artist/68qsduRCs8caw95bbF4IDD"
+                },
+                "href" : "https://api.spotify.com/v1/artists/68qsduRCs8caw95bbF4IDD",
+                "id" : "68qsduRCs8caw95bbF4IDD",
+                "name" : "Strife",
+                "type" : "artist",
+                "uri" : "spotify:artist:68qsduRCs8caw95bbF4IDD"
+              } ],
+              "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+              "disc_number" : 1,
+              "duration_ms" : 113200,
+              "explicit" : false,
+              "external_ids" : {
+                "isrc" : "USVIC9705403"
+              },
+              "external_urls" : {
+                "spotify" : "https://open.spotify.com/track/10AdlI1iEaopGtAX5C9xjk"
+              },
+              "href" : "https://api.spotify.com/v1/tracks/10AdlI1iEaopGtAX5C9xjk",
+              "id" : "10AdlI1iEaopGtAX5C9xjk",
+              "name" : "Force of Change",
+              "popularity" : 26,
+              "preview_url" : "https://p.scdn.co/mp3-preview/648aa49c3e5d88c1ce6f920d5184346849607b4c",
+              "track_number" : 3,
+              "type" : "track",
+              "uri" : "spotify:track:10AdlI1iEaopGtAX5C9xjk"
+            }, {
+              "album" : {
+                "album_type" : "album",
+                "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+                "external_urls" : {
+                  "spotify" : "https://open.spotify.com/album/5ocaOior2AINNCndWogRAw"
+                },
+                "href" : "https://api.spotify.com/v1/albums/5ocaOior2AINNCndWogRAw",
+                "id" : "5ocaOior2AINNCndWogRAw",
+                "images" : [ {
+                  "height" : 640,
+                  "url" : "https://i.scdn.co/image/1964dcb18b6cc341eaf9abe9e1b57dfeb00b74c6",
+                  "width" : 640
+                }, {
+                  "height" : 300,
+                  "url" : "https://i.scdn.co/image/b3a1e5dc7bcf8f6d1e879c36c2325863005fd35c",
+                  "width" : 300
+                }, {
+                  "height" : 64,
+                  "url" : "https://i.scdn.co/image/30b0c6130b174db0a59cd126c6f0f9ed1b7b8f57",
+                  "width" : 64
+                } ],
+                "name" : "Witness a Rebirth",
+                "type" : "album",
+                "uri" : "spotify:album:5ocaOior2AINNCndWogRAw"
+              },
+              "artists" : [ {
+                "external_urls" : {
+                  "spotify" : "https://open.spotify.com/artist/68qsduRCs8caw95bbF4IDD"
+                },
+                "href" : "https://api.spotify.com/v1/artists/68qsduRCs8caw95bbF4IDD",
+                "id" : "68qsduRCs8caw95bbF4IDD",
+                "name" : "Strife",
+                "type" : "artist",
+                "uri" : "spotify:artist:68qsduRCs8caw95bbF4IDD"
+              } ],
+              "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+              "disc_number" : 1,
+              "duration_ms" : 153453,
+              "explicit" : false,
+              "external_ids" : {
+                "isrc" : "USA2P1273376"
+              },
+              "external_urls" : {
+                "spotify" : "https://open.spotify.com/track/1lQso47PJanjBPhWkPGBTQ"
+              },
+              "href" : "https://api.spotify.com/v1/tracks/1lQso47PJanjBPhWkPGBTQ",
+              "id" : "1lQso47PJanjBPhWkPGBTQ",
+              "name" : "Show No Mercy",
+              "popularity" : 27,
+              "preview_url" : "https://p.scdn.co/mp3-preview/5e4732efc422f29a91be3de397049f2e3d2d23cf",
+              "track_number" : 3,
+              "type" : "track",
+              "uri" : "spotify:track:1lQso47PJanjBPhWkPGBTQ"
+            }, {
+              "album" : {
+                "album_type" : "album",
+                "available_markets" : [ "AD", "AR", "AT", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+                "external_urls" : {
+                  "spotify" : "https://open.spotify.com/album/0S466XEmkMM7oFcVgo1zMR"
+                },
+                "href" : "https://api.spotify.com/v1/albums/0S466XEmkMM7oFcVgo1zMR",
+                "id" : "0S466XEmkMM7oFcVgo1zMR",
+                "images" : [ {
+                  "height" : 640,
+                  "url" : "https://i.scdn.co/image/4ef53336626ee81e7fddd0e59b264d594c5951cb",
+                  "width" : 640
+                }, {
+                  "height" : 300,
+                  "url" : "https://i.scdn.co/image/e02adb4678ff76cd7a3c13b844c0a930f4018370",
+                  "width" : 300
+                }, {
+                  "height" : 64,
+                  "url" : "https://i.scdn.co/image/280a3219dae47d6d10eeb486488a5e4c1d4b519c",
+                  "width" : 64
+                } ],
+                "name" : "TOTAL STRIFE FOREVER",
+                "type" : "album",
+                "uri" : "spotify:album:0S466XEmkMM7oFcVgo1zMR"
+              },
+              "artists" : [ {
+                "external_urls" : {
+                  "spotify" : "https://open.spotify.com/artist/6cyAaSbk3g5iaLDL8sygpQ"
+                },
+                "href" : "https://api.spotify.com/v1/artists/6cyAaSbk3g5iaLDL8sygpQ",
+                "id" : "6cyAaSbk3g5iaLDL8sygpQ",
+                "name" : "East India Youth",
+                "type" : "artist",
+                "uri" : "spotify:artist:6cyAaSbk3g5iaLDL8sygpQ"
+              } ],
+              "available_markets" : [ "AD", "AR", "AT", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+              "disc_number" : 1,
+              "duration_ms" : 372745,
+              "explicit" : false,
+              "external_ids" : {
+                "isrc" : "GBPKZ1300034"
+              },
+              "external_urls" : {
+                "spotify" : "https://open.spotify.com/track/2az16aykl79NX0WCAubmF9"
+              },
+              "href" : "https://api.spotify.com/v1/tracks/2az16aykl79NX0WCAubmF9",
+              "id" : "2az16aykl79NX0WCAubmF9",
+              "name" : "HEAVEN, HOW LONG",
+              "popularity" : 38,
+              "preview_url" : "https://p.scdn.co/mp3-preview/0a9c6daa68a653e0eb1a1f818ba75761bae2aa32",
+              "track_number" : 5,
+              "type" : "track",
+              "uri" : "spotify:track:2az16aykl79NX0WCAubmF9"
+            }, {
+              "album" : {
+                "album_type" : "album",
+                "available_markets" : [ "AD", "AR", "AT", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+                "external_urls" : {
+                  "spotify" : "https://open.spotify.com/album/0S466XEmkMM7oFcVgo1zMR"
+                },
+                "href" : "https://api.spotify.com/v1/albums/0S466XEmkMM7oFcVgo1zMR",
+                "id" : "0S466XEmkMM7oFcVgo1zMR",
+                "images" : [ {
+                  "height" : 640,
+                  "url" : "https://i.scdn.co/image/4ef53336626ee81e7fddd0e59b264d594c5951cb",
+                  "width" : 640
+                }, {
+                  "height" : 300,
+                  "url" : "https://i.scdn.co/image/e02adb4678ff76cd7a3c13b844c0a930f4018370",
+                  "width" : 300
+                }, {
+                  "height" : 64,
+                  "url" : "https://i.scdn.co/image/280a3219dae47d6d10eeb486488a5e4c1d4b519c",
+                  "width" : 64
+                } ],
+                "name" : "TOTAL STRIFE FOREVER",
+                "type" : "album",
+                "uri" : "spotify:album:0S466XEmkMM7oFcVgo1zMR"
+              },
+              "artists" : [ {
+                "external_urls" : {
+                  "spotify" : "https://open.spotify.com/artist/6cyAaSbk3g5iaLDL8sygpQ"
+                },
+                "href" : "https://api.spotify.com/v1/artists/6cyAaSbk3g5iaLDL8sygpQ",
+                "id" : "6cyAaSbk3g5iaLDL8sygpQ",
+                "name" : "East India Youth",
+                "type" : "artist",
+                "uri" : "spotify:artist:6cyAaSbk3g5iaLDL8sygpQ"
+              } ],
+              "available_markets" : [ "AD", "AR", "AT", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+              "disc_number" : 1,
+              "duration_ms" : 395817,
+              "explicit" : false,
+              "external_ids" : {
+                "isrc" : "GBPKZ1300031"
+              },
+              "external_urls" : {
+                "spotify" : "https://open.spotify.com/track/5p1Sc8Z61aRFQ0ZJCeh89p"
+              },
+              "href" : "https://api.spotify.com/v1/tracks/5p1Sc8Z61aRFQ0ZJCeh89p",
+              "id" : "5p1Sc8Z61aRFQ0ZJCeh89p",
+              "name" : "TOTAL STRIFE FOREVER I",
+              "popularity" : 36,
+              "preview_url" : "https://p.scdn.co/mp3-preview/b52e8016d753e5ff1a083deabee87469ff79d50b",
+              "track_number" : 2,
+              "type" : "track",
+              "uri" : "spotify:track:5p1Sc8Z61aRFQ0ZJCeh89p"
+            }, {
+              "album" : {
+                "album_type" : "album",
+                "available_markets" : [ "AD", "AT", "BE", "BG", "CZ", "DK", "EE", "ES", "FI", "GB", "GR", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "NL", "NO", "PL", "PT", "RO", "SE", "SI", "SK" ],
+                "external_urls" : {
+                  "spotify" : "https://open.spotify.com/album/3RJJznOBk6pgINpPMjuQA9"
+                },
+                "href" : "https://api.spotify.com/v1/albums/3RJJznOBk6pgINpPMjuQA9",
+                "id" : "3RJJznOBk6pgINpPMjuQA9",
+                "images" : [ {
+                  "height" : 640,
+                  "url" : "https://i.scdn.co/image/5cdcabbb372e53af843842f0faafa21650cf5566",
+                  "width" : 640
+                }, {
+                  "height" : 300,
+                  "url" : "https://i.scdn.co/image/ab3827c134ca113233c137d7ba7ee61032845f0a",
+                  "width" : 300
+                }, {
+                  "height" : 64,
+                  "url" : "https://i.scdn.co/image/4c2fa044c8e0d3f7e4d5c9ef7a23fe7ef6777c5e",
+                  "width" : 64
+                } ],
+                "name" : "Buy Beg Or Steal",
+                "type" : "album",
+                "uri" : "spotify:album:3RJJznOBk6pgINpPMjuQA9"
+              },
+              "artists" : [ {
+                "external_urls" : {
+                  "spotify" : "https://open.spotify.com/artist/2osRW41mzIig6TuqQeNsJR"
+                },
+                "href" : "https://api.spotify.com/v1/artists/2osRW41mzIig6TuqQeNsJR",
+                "id" : "2osRW41mzIig6TuqQeNsJR",
+                "name" : "The Hillbilly Moon Explosion",
+                "type" : "artist",
+                "uri" : "spotify:artist:2osRW41mzIig6TuqQeNsJR"
+              } ],
+              "available_markets" : [ "AD", "AT", "BE", "BG", "CZ", "DK", "EE", "ES", "FI", "GB", "GR", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "NL", "NO", "PL", "PT", "RO", "SE", "SI", "SK" ],
+              "disc_number" : 1,
+              "duration_ms" : 177986,
+              "explicit" : false,
+              "external_ids" : {
+                "isrc" : "FRU011000033"
+              },
+              "external_urls" : {
+                "spotify" : "https://open.spotify.com/track/17gimlZN4QK0rRWrugarBR"
+              },
+              "href" : "https://api.spotify.com/v1/tracks/17gimlZN4QK0rRWrugarBR",
+              "id" : "17gimlZN4QK0rRWrugarBR",
+              "name" : "Trouble & Strife",
+              "popularity" : 21,
+              "preview_url" : "https://p.scdn.co/mp3-preview/d4627f63740ee29c3d1c73db2ef5c81375c77151",
+              "track_number" : 5,
+              "type" : "track",
+              "uri" : "spotify:track:17gimlZN4QK0rRWrugarBR"
+            }, {
+              "album" : {
+                "album_type" : "album",
+                "available_markets" : [ "AD", "AR", "AT", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+                "external_urls" : {
+                  "spotify" : "https://open.spotify.com/album/0S466XEmkMM7oFcVgo1zMR"
+                },
+                "href" : "https://api.spotify.com/v1/albums/0S466XEmkMM7oFcVgo1zMR",
+                "id" : "0S466XEmkMM7oFcVgo1zMR",
+                "images" : [ {
+                  "height" : 640,
+                  "url" : "https://i.scdn.co/image/4ef53336626ee81e7fddd0e59b264d594c5951cb",
+                  "width" : 640
+                }, {
+                  "height" : 300,
+                  "url" : "https://i.scdn.co/image/e02adb4678ff76cd7a3c13b844c0a930f4018370",
+                  "width" : 300
+                }, {
+                  "height" : 64,
+                  "url" : "https://i.scdn.co/image/280a3219dae47d6d10eeb486488a5e4c1d4b519c",
+                  "width" : 64
+                } ],
+                "name" : "TOTAL STRIFE FOREVER",
+                "type" : "album",
+                "uri" : "spotify:album:0S466XEmkMM7oFcVgo1zMR"
+              },
+              "artists" : [ {
+                "external_urls" : {
+                  "spotify" : "https://open.spotify.com/artist/6cyAaSbk3g5iaLDL8sygpQ"
+                },
+                "href" : "https://api.spotify.com/v1/artists/6cyAaSbk3g5iaLDL8sygpQ",
+                "id" : "6cyAaSbk3g5iaLDL8sygpQ",
+                "name" : "East India Youth",
+                "type" : "artist",
+                "uri" : "spotify:artist:6cyAaSbk3g5iaLDL8sygpQ"
+              } ],
+              "available_markets" : [ "AD", "AR", "AT", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+              "disc_number" : 1,
+              "duration_ms" : 175056,
+              "explicit" : false,
+              "external_ids" : {
+                "isrc" : "GBPKZ1300035"
+              },
+              "external_urls" : {
+                "spotify" : "https://open.spotify.com/track/6hpiYQQO2c5t45jOMMUC3d"
+              },
+              "href" : "https://api.spotify.com/v1/tracks/6hpiYQQO2c5t45jOMMUC3d",
+              "id" : "6hpiYQQO2c5t45jOMMUC3d",
+              "name" : "TOTAL STRIFE FOREVER II",
+              "popularity" : 32,
+              "preview_url" : "https://p.scdn.co/mp3-preview/f4cb8fffac0a3855c68a42edf49d187d8f4532b2",
+              "track_number" : 6,
+              "type" : "track",
+              "uri" : "spotify:track:6hpiYQQO2c5t45jOMMUC3d"
+            }, {
+              "album" : {
+                "album_type" : "album",
+                "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+                "external_urls" : {
+                  "spotify" : "https://open.spotify.com/album/5ocaOior2AINNCndWogRAw"
+                },
+                "href" : "https://api.spotify.com/v1/albums/5ocaOior2AINNCndWogRAw",
+                "id" : "5ocaOior2AINNCndWogRAw",
+                "images" : [ {
+                  "height" : 640,
+                  "url" : "https://i.scdn.co/image/1964dcb18b6cc341eaf9abe9e1b57dfeb00b74c6",
+                  "width" : 640
+                }, {
+                  "height" : 300,
+                  "url" : "https://i.scdn.co/image/b3a1e5dc7bcf8f6d1e879c36c2325863005fd35c",
+                  "width" : 300
+                }, {
+                  "height" : 64,
+                  "url" : "https://i.scdn.co/image/30b0c6130b174db0a59cd126c6f0f9ed1b7b8f57",
+                  "width" : 64
+                } ],
+                "name" : "Witness a Rebirth",
+                "type" : "album",
+                "uri" : "spotify:album:5ocaOior2AINNCndWogRAw"
+              },
+              "artists" : [ {
+                "external_urls" : {
+                  "spotify" : "https://open.spotify.com/artist/68qsduRCs8caw95bbF4IDD"
+                },
+                "href" : "https://api.spotify.com/v1/artists/68qsduRCs8caw95bbF4IDD",
+                "id" : "68qsduRCs8caw95bbF4IDD",
+                "name" : "Strife",
+                "type" : "artist",
+                "uri" : "spotify:artist:68qsduRCs8caw95bbF4IDD"
+              } ],
+              "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+              "disc_number" : 1,
+              "duration_ms" : 114226,
+              "explicit" : false,
+              "external_ids" : {
+                "isrc" : "USA2P1273377"
+              },
+              "external_urls" : {
+                "spotify" : "https://open.spotify.com/track/1g1cyZq1yoWoC6nHhslytl"
+              },
+              "href" : "https://api.spotify.com/v1/tracks/1g1cyZq1yoWoC6nHhslytl",
+              "id" : "1g1cyZq1yoWoC6nHhslytl",
+              "name" : "No Apologies",
+              "popularity" : 25,
+              "preview_url" : "https://p.scdn.co/mp3-preview/5b6e1685263a8d1bbd5b55ae3fc4787251a06fc5",
+              "track_number" : 4,
+              "type" : "track",
+              "uri" : "spotify:track:1g1cyZq1yoWoC6nHhslytl"
+            }, {
+              "album" : {
+                "album_type" : "album",
+                "available_markets" : [ "AD", "AR", "AT", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+                "external_urls" : {
+                  "spotify" : "https://open.spotify.com/album/0S466XEmkMM7oFcVgo1zMR"
+                },
+                "href" : "https://api.spotify.com/v1/albums/0S466XEmkMM7oFcVgo1zMR",
+                "id" : "0S466XEmkMM7oFcVgo1zMR",
+                "images" : [ {
+                  "height" : 640,
+                  "url" : "https://i.scdn.co/image/4ef53336626ee81e7fddd0e59b264d594c5951cb",
+                  "width" : 640
+                }, {
+                  "height" : 300,
+                  "url" : "https://i.scdn.co/image/e02adb4678ff76cd7a3c13b844c0a930f4018370",
+                  "width" : 300
+                }, {
+                  "height" : 64,
+                  "url" : "https://i.scdn.co/image/280a3219dae47d6d10eeb486488a5e4c1d4b519c",
+                  "width" : 64
+                } ],
+                "name" : "TOTAL STRIFE FOREVER",
+                "type" : "album",
+                "uri" : "spotify:album:0S466XEmkMM7oFcVgo1zMR"
+              },
+              "artists" : [ {
+                "external_urls" : {
+                  "spotify" : "https://open.spotify.com/artist/6cyAaSbk3g5iaLDL8sygpQ"
+                },
+                "href" : "https://api.spotify.com/v1/artists/6cyAaSbk3g5iaLDL8sygpQ",
+                "id" : "6cyAaSbk3g5iaLDL8sygpQ",
+                "name" : "East India Youth",
+                "type" : "artist",
+                "uri" : "spotify:artist:6cyAaSbk3g5iaLDL8sygpQ"
+              } ],
+              "available_markets" : [ "AD", "AR", "AT", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+              "disc_number" : 1,
+              "duration_ms" : 307431,
+              "explicit" : false,
+              "external_ids" : {
+                "isrc" : "GBPKZ1300030"
+              },
+              "external_urls" : {
+                "spotify" : "https://open.spotify.com/track/0buUIjy4Bn2TuxPX2NMaUM"
+              },
+              "href" : "https://api.spotify.com/v1/tracks/0buUIjy4Bn2TuxPX2NMaUM",
+              "id" : "0buUIjy4Bn2TuxPX2NMaUM",
+              "name" : "GLITTER RECESSION",
+              "popularity" : 38,
+              "preview_url" : "https://p.scdn.co/mp3-preview/b99c07eb0716682bd6d535c7ae3fc731dafc45f4",
+              "track_number" : 1,
+              "type" : "track",
+              "uri" : "spotify:track:0buUIjy4Bn2TuxPX2NMaUM"
+            }, {
+              "album" : {
+                "album_type" : "album",
+                "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+                "external_urls" : {
+                  "spotify" : "https://open.spotify.com/album/2dJ2HAbutOrZb3wqbYmRlR"
+                },
+                "href" : "https://api.spotify.com/v1/albums/2dJ2HAbutOrZb3wqbYmRlR",
+                "id" : "2dJ2HAbutOrZb3wqbYmRlR",
+                "images" : [ {
+                  "height" : 640,
+                  "url" : "https://i.scdn.co/image/6ec9a5d42c6029ee27f94d4ff8ed0f79f94957e2",
+                  "width" : 640
+                }, {
+                  "height" : 300,
+                  "url" : "https://i.scdn.co/image/80da6d9fc327e2c78aefd95dff1ea5efe3cc3ced",
+                  "width" : 300
+                }, {
+                  "height" : 64,
+                  "url" : "https://i.scdn.co/image/82e671191f0808092dce72ef73b528ecb75cdd0c",
+                  "width" : 64
+                } ],
+                "name" : "In This Defiance",
+                "type" : "album",
+                "uri" : "spotify:album:2dJ2HAbutOrZb3wqbYmRlR"
+              },
+              "artists" : [ {
+                "external_urls" : {
+                  "spotify" : "https://open.spotify.com/artist/68qsduRCs8caw95bbF4IDD"
+                },
+                "href" : "https://api.spotify.com/v1/artists/68qsduRCs8caw95bbF4IDD",
+                "id" : "68qsduRCs8caw95bbF4IDD",
+                "name" : "Strife",
+                "type" : "artist",
+                "uri" : "spotify:artist:68qsduRCs8caw95bbF4IDD"
+              } ],
+              "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+              "disc_number" : 1,
+              "duration_ms" : 133493,
+              "explicit" : false,
+              "external_ids" : {
+                "isrc" : "USVIC9705402"
+              },
+              "external_urls" : {
+                "spotify" : "https://open.spotify.com/track/0FADY7KQiXdLpZJeQV9ggv"
+              },
+              "href" : "https://api.spotify.com/v1/tracks/0FADY7KQiXdLpZJeQV9ggv",
+              "id" : "0FADY7KQiXdLpZJeQV9ggv",
+              "name" : "Waiting",
+              "popularity" : 25,
+              "preview_url" : "https://p.scdn.co/mp3-preview/fe30471e547a35117e41d9a33b4c2c5347c48976",
+              "track_number" : 2,
+              "type" : "track",
+              "uri" : "spotify:track:0FADY7KQiXdLpZJeQV9ggv"
+            }, {
+              "album" : {
+                "album_type" : "album",
+                "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+                "external_urls" : {
+                  "spotify" : "https://open.spotify.com/album/1jfCsbTZxYBTV8AiwEDlKy"
+                },
+                "href" : "https://api.spotify.com/v1/albums/1jfCsbTZxYBTV8AiwEDlKy",
+                "id" : "1jfCsbTZxYBTV8AiwEDlKy",
+                "images" : [ {
+                  "height" : 640,
+                  "url" : "https://i.scdn.co/image/a6a6696935e6dc2ee16c3943140c8071ef2852f0",
+                  "width" : 640
+                }, {
+                  "height" : 300,
+                  "url" : "https://i.scdn.co/image/25b921fd3fe72559bed95b1c2609ba40c7354b5f",
+                  "width" : 300
+                }, {
+                  "height" : 64,
+                  "url" : "https://i.scdn.co/image/dab8dd4e6c487e4c9073f731a5986929a7304379",
+                  "width" : 64
+                } ],
+                "name" : "Forward Music",
+                "type" : "album",
+                "uri" : "spotify:album:1jfCsbTZxYBTV8AiwEDlKy"
+              },
+              "artists" : [ {
+                "external_urls" : {
+                  "spotify" : "https://open.spotify.com/artist/6pALX0nyILcabflRT8UA8u"
+                },
+                "href" : "https://api.spotify.com/v1/artists/6pALX0nyILcabflRT8UA8u",
+                "id" : "6pALX0nyILcabflRT8UA8u",
+                "name" : "Meta And The Cornerstones",
+                "type" : "artist",
+                "uri" : "spotify:artist:6pALX0nyILcabflRT8UA8u"
+              } ],
+              "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+              "disc_number" : 1,
+              "duration_ms" : 247773,
+              "explicit" : false,
+              "external_ids" : {
+                "isrc" : "uscgj0898507"
+              },
+              "external_urls" : {
+                "spotify" : "https://open.spotify.com/track/5OtlCdWUSXnaKntME5GQpd"
+              },
+              "href" : "https://api.spotify.com/v1/tracks/5OtlCdWUSXnaKntME5GQpd",
+              "id" : "5OtlCdWUSXnaKntME5GQpd",
+              "name" : "Struggle And Strife (Senegal)",
+              "popularity" : 23,
+              "preview_url" : "https://p.scdn.co/mp3-preview/2f9e9c5cfda946dd3581eadcba8cf7352c5bc175",
+              "track_number" : 1,
+              "type" : "track",
+              "uri" : "spotify:track:5OtlCdWUSXnaKntME5GQpd"
+            } ],
+            "limit" : 20,
+            "next" : "https://api.spotify.com/v1/search?query=strife&offset=20&limit=20&type=track",
+            "offset" : 0,
+            "previous" : null,
+            "total" : 921
+          }
+        }
+    http_version: 
+  recorded_at: Tue, 24 Jun 2014 09:01:03 GMT
+recorded_with: VCR 2.9.2
