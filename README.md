@@ -22,13 +22,11 @@ Or install it yourself as:
 
 ```ruby
 artists = Spotify.search_artists "trivium"
-
 artist = artists.first
 artist.name   #=> "Trivium"
 artist.id     #=> "278ZYwGhdK6QTzE3MFePnP"
 
 albums = Spotify.search_albums "vengeance falls"
-
 album = albums.first
 album.name  #=> "Vengeance Falls (Special Edition)"
 album.id    #=> "1hamGtmqitOROTKc0yNhow"
