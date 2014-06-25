@@ -20,7 +20,19 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+artists = Spotify.search_artists "trivium"
+
+artist = artists.first
+artist.name   #=> "Trivium"
+artist.id     #=> "278ZYwGhdK6QTzE3MFePnP"
+
+albums = Spotify.search_albums "vengeance falls"
+
+album = albums.first
+album.name  #=> "Vengeance Falls (Special Edition)"
+album.id    #=> "1hamGtmqitOROTKc0yNhow"
+```
 
 ## Contributing
 
@@ -32,7 +44,7 @@ TODO: Write usage instructions here
 
 ## License
 
-Copyright (c) 2009-2014 Wynn Netherland, Adam Stacoviak, Erik Michaels-Ober
+Copyright (c) 2014 Doug Tykocki
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the

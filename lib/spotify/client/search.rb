@@ -9,7 +9,7 @@ module Spotify
       # Search Albums
       #
       # @param term [String] Search keyword.
-      # @return [Sawyer::Resource] Hash representing the set of albums matching the search term.
+      # @return [Array<Sawyer::Resource>] Array representing the set of albums matching the search term.
       # @example
       #   Spotify.client.search_albums("colony")
       # @example
@@ -21,7 +21,7 @@ module Spotify
       # Search Artists.
       #
       # @param term [String] Search term keyword.
-      # @return [Sawyer::Resource] Hash representing the set of artists matching the search term.
+      # @return [Array<Sawyer::Resource>] Array representing the set of artists matching the search term.
       # @example
       #   Spotify.client.search_artists("in flames")
       # @example
@@ -33,7 +33,7 @@ module Spotify
       # Search Tracks.
       #
       # @param term [String] Search term keyword.
-      # @return [Sawyer::Resource] Hash representing the set of tracks matching the search term.
+      # @return [Array<Sawyer::Resource>] Array representing the set of tracks matching the search term.
       # @example
       #   Spotify.client.search_tracks("colony")
       # @example
@@ -44,9 +44,19 @@ module Spotify
 
       private
 
-      # Nothing to see here, move along
       def search(term, type, options = {})
-        get "search?q=#{URI::Parser.new.escape(term)}&type=#{type.to_s}", options
+        items = []
+        get "search?q=#{URI::Parser.new.escape(term)}&type=#{type.to_s}", options do |data|
+          case type 
+          when :album
+            items = data.albums.items
+          when :artist
+            items = data.artists.items
+          when :track
+            items = data.tracks.items
+          end
+        end
+        items
       end
 
     end

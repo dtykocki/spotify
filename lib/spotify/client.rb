@@ -41,8 +41,8 @@ module Spotify
     # @param url [String] The path, relative to {#endpoint_url}.
     # @param options [Hash] Query and header parameters for the request.
     # @return [Sawyer::Resource]
-    def get(url, options = {})
-      request :get, url, parse_query(options)
+    def get(url, options = {}, &block)
+      request :get, url, parse_query(options), &block
     end
 
     # Makes an HTTP POST request.
@@ -62,6 +62,7 @@ module Spotify
 
     def request(method, url, options = {}, data = {})
       response = agent.call(method, url, data, options)
+      yield response.data if block_given?
       response.data
     end
   end
